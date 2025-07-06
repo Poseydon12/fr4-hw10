@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #4caf50;
+  position: relative;
+  margin: 20px 0;
+}
+
+.notification {
+  display: none;
+  background-color: #e0f7fa;
+  padding: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: 1px solid #b2ebf2;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
